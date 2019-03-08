@@ -5,6 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+const port = 5000;
+
 
 var index = require('./routes/index');
 var users = require('./routes/users');
@@ -46,5 +48,5 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(port, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+  console.log(`Server running at ${port}/`);
 });

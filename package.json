@@ -5,6 +5,9 @@
   "scripts": {
     "start": "node app"
   },
+  "engines": {
+    "node": "8.11.1"
+  },
   "dependencies": {
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
