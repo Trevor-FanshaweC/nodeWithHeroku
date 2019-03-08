@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-const port = 5000;
+const port = process.env.PORT || 3000;
 
 
 var index = require('./routes/index');
