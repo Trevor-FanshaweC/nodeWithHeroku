@@ -7,7 +7,6 @@ var bodyParser = require('body-parser');
 
 const port = process.env.PORT || 3000;
 
-
 var index = require('./routes/index');
 var users = require('./routes/users');
 
